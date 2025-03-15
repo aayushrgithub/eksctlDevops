@@ -18,6 +18,7 @@ func coursePage(w http.ResponseWriter, r *http.Request) {
 func aboutPage(w http.ResponseWriter, r *http.Request) {
 	// Render the about html page
 	http.ServeFile(w, r, "static/about.html")
+
 }
 
 func contactPage(w http.ResponseWriter, r *http.Request) {
